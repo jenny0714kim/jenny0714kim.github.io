@@ -1,0 +1,116 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500i,600i|Noto+Sans+KR:400,700,900&subset=korean');
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+html{
+  background: #202020;
+  font-size: 10px;
+}
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  width: auto;
+  max-width: 1280px;
+  min-width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+a{
+  color: inherit;
+}
+.montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+.text-1{
+  font-size: 8rem;
+  color: #fafafa;
+  text-shadow: 3px 3px 0 #444;
+}
+.text-2{
+  font-size: 2.5rem;
+  color: #dddddd;
+  font-weight: 300;
+  font-style: italic;
+}
+.text-3{
+  font-size: 2rem;
+  color: #181818;
+}
+.text-4{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #181818;
+}
+.text-5{
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #fafafa;
+}
+.header{
+  width: 100%;
+  height: auto;
+  margin: 50px auto 50px;
+  padding: 0;
+  background: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  margin: 30px;
+  padding: 0;
+}
+.profile{
+  margin: 10px;
+  padding: 0;
+  background:none;
+}
+.profile a{
+text-decoration: none;
+}
+.line {
+  width: auto;
+  min-width: 400px;
+  height: 1px;
+  margin: 10px 10px 10px 10px;
+  background: #fafafa;
+}
+.main{
+  /* background: rgba(240,240,240, 0.05); */
+  background: #101010;
+  margin: 30px auto 30px;
+  padding: 15px 20px 15px 20px;
+  width: auto;
+  max-width: 600px;
+  min-width: 400px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  /* justify-content: center; */
+}
+.main-menu{
+  background: rgba(240,240,240, 1.0);
+  margin: 8px 10px 8px 10px;
+  width: 100%;
+  height: auto;
+  box-shadow: 3px 3px 10px 0 #000000;
+}
+.main-menu img{
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-text{
+  margin: 5px;
+}
+.footer {
+  text-align: center;
+  background: #101010;
+}

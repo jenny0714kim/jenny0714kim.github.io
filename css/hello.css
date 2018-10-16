@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body {
+  background-color: #2233aa;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-color: pink;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    body {
+      background-color: tomato;
+    }
+}

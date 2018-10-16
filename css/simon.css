@@ -1,0 +1,40 @@
+@charset 'utf-8';
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: silver;
+}
+.container{
+  background-color: grey;
+}
+.header{
+  background-color: yellow;
+  display: flex;
+}
+.wrapper_header{
+  
+}
+.wrapper_header_menubar{
+  justify-content: center;
+}
+.main{
+  background-color: skyblue;
+}
+.card{
+  background-color: white;
+}
+.card-img{
+  background-color: pink;
+}
+.card-content{
+  background-color: orange;
+}
+.footer{
+  background-color: lime;
+}
+/* all device & mobile device */
+
+/* desktop device */

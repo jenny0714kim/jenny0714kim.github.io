@@ -1,0 +1,37 @@
+@charset "utf-8";
+body{
+  margin: 0;
+  /* m0 */
+}
+/* 커맨드+슬래쉬=주석 모바일 환경을 위한 스타일 */
+.container{
+  background-color:  yellow;
+  height: 100vh;
+  /* vh=viewport height */
+  padding-top: 1em;
+}
+.grid{
+  background-color: skyblue;
+  margin: 1em;
+}
+.heading{
+  margin-top: 0;
+}
+/* 마지막에 선언한게 최종적으로 반영된다 그리드,헤딩 마진 관련하여 */
+/* 데스크탑 환경을 위한 스타일 */
+@media screen and (min-width: 1280px){
+  .card{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex를 선언하면 하위 컨텐츠들이 가로로 나열된다 기본적으로 줄바꿈을 허용하지않음.
+    flex-wrap으로하면 줄바꿈 허용 */
+  }
+  .card1, .card2, .card3, .card4
+  /* ,는 모두 를 포함한다는것 */
+  {
+    background-color: lime;
+    width: calc(50% - 2em);
+    /* 1em=한글자 크기 , Calc=연산, 연산할때는 반드시 스페이스 공간이 있어야함*/
+  }
+}
